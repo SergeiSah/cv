@@ -3,86 +3,94 @@
 
 <head>
   <meta charset="utf-8">
-  <title>🥶 Taco's personal site</title>
+  <title>Taco's personal site</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="taco_favicon.ico">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@300&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <img src="img/me2.png" onresize="" width="" height="" alt="My photo">
-  <h1>Taco Burrito</h1>
-  <p><em>PhD student of <strong><a href="https://en.wikipedia.org/wiki/Shawarma">Shawarma University</a></strong></em></p>
-  <p>I am a PhD student of Solid State Electronics department at Shawa rma University</p>
+  <div class="main_info">
+    <div class="taco-block">
+      <img class="food-around" src="img/apple_taco.png" alt="">
+      <img class="food-around" src="img/whatsapp_taco.png" alt="">
+      <img class="food-around" src="img/emojipedia_taco.png" alt="">
+    </div>
+
+    <div class="main-block">
+      <img class="profile_photo" src="img/taco.jpg" alt="profile photo">
+      <h1>Taco Burrito</h1>
+      <h3>I am a professor of Street Food department <br> at Mexican Cuisine University</h3>
+    </div>
+
+    <div class="burrito-block">
+      <img class="food-around" src="img/apple_burrito.png" alt="">
+      <img class="food-around" src="img/whatsapp_burrito.png" alt="">
+      <img class="food-around" src="img/lg_burrito.png" alt="">
+    </div>
+  </div>
+
+  <div class="middle-container">
+
+    <div class="education-container">
+      <h2>Education</h2>
+      <p>Steet food department of Mexican Cuisine University</p>
+    </div>
+
+    <hr>
+
+    <div class="hobbies-container">
+      <h2>My hobbies</h2>
+      <ol>
+        <li>I like to hang out on Mexican holidays</li>
+        <li>I like to harvest corn</li>
+        <li>I like to wear a sombrero, little mustache and play the guitar</li>
+      </ol>
+    </div>
+
+    <hr>
+
+    <div class="skills-container">
+      <h2>Skills</h2>
+
+      <div class="skills-block">
+        <img class="ingredients-img" src="img/ingredients.png" alt="">
+        <h4>Variability</h4>
+        <p>I can be made with a variety of fillings, including beef, pork,
+          chicken, seafood, beans, vegetables, and cheese, allowing for great
+          versatility and variety</p>
+      </div>
+
+      <div class="skills-block">
+        <img class="healthy-img" src="img/healthy.png" alt="">
+        <h4>High rate of health points rise</h4>
+        <p>If you only eat one peace of me, your HP will increase by over 40 points.
+          Moreover I can increase your mana points if you suddenly turn out to be a wizard</p>
+      </div>
+
+    </div>
+
+  </div>
 
   <hr>
 
-  <h3>Education</h3>
-  <ul>
-    <li>School1</li>
-    <li>School2</li>
-    <li>University</li>
-  </ul>
+  <div class="contacts-container">
+    <h2>Get in touch</h2>
+    <h3>Do you like hot things?</h3>
+    <a class="btn" href="mailto:physical.taco@yahoo.com">Contact me</a>
+  </div>
 
-  <hr>
-
-  <h3>My hobbies</h3>
-  <ol>
-    <li>Hobby</li>
-    <li>Hobby</li>
-    <li>Hobby</li>
-  </ol>
-
-  <hr>
-
-  <h3>Skills</h3>
-  <table cellspacing="2">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Be long</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Be tasty</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Be Safe</td>
-            <td>⭐⭐⭐☆☆</td>
-          </tr>
-          <tr>
-            <td>Be Vegan</td>
-            <td>☆☆☆☆☆</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <hr>
-
-  <p><a href="contact_me.html">Contact me</a></p>
-
+  <footer>
+    <p>© 2021 Taco Burrito</p>
+  </footer>
 
 </body>
 

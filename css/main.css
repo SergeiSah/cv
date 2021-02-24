@@ -1,0 +1,145 @@
+html {
+  color: #222;
+  line-height: 1.4;
+}
+
+body {
+  background-color: #fdffbc;
+  margin: 0;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Lucida Bright", "Courier New", monospace;
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 7px dotted lightgray;
+  margin: 1em auto;
+  padding: 0;
+  width: 5%;
+}
+
+h1 {
+  color: #00917c;
+  margin-top: 0;
+  font-family: "Shippori Mincho B1", monospace;
+  font-size: 3.6rem;
+}
+
+h2 {
+  color: #00917c;
+  font-family: "Shippori Mincho B1", monospace;
+  font-size: 2.1rem;
+}
+
+h3 {
+  color: #00917c;
+  font-family: "Lucida Bright", "Courier New", monospace;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+h4 {
+  color: #00917c;
+  font-family: "Lucida Bright", "Courier New", monospace;
+  font-size: 1.4rem;
+}
+
+.main_info {
+  background-color: #ffd384;
+  padding: 40px;
+}
+
+.middle-container {
+  margin: 0;
+}
+
+.profile_photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.food-around {
+  width: 60px;
+  margin: 10px 60px;
+}
+
+.education-container {
+  width: 40%;
+  margin: 0 auto 50px auto;
+}
+
+.hobbies-container {
+  width: 40%;
+  margin: 0 auto 50px auto;
+}
+
+.skills-block {
+  margin: 0 auto 50px auto;
+  text-align: left;
+  width: 40%;
+}
+
+.ingredients-img {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.healthy-img {
+  width: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.img-inside {
+  width: 40%;
+  float: left;
+}
+
+.contacts-container {
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #ffcb91;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #00917c;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  border: 2px solid #ffd384;
+}
+
+footer {
+  background-color: #ffd384;
+  margin: 0;
+  padding: 20px 0;
+}
+
+
+/*.main-block {*/
+/*  display: inline;*/
+/*}*/
+
+/*.taco-block {*/
+/*  display: inline;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*}*/
+
+/*.burrito-block {*/
+/*  display: inline;*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*}*/
+
+
+
